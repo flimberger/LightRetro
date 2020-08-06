@@ -12,7 +12,7 @@ red: `#bc0000`
 yellow: `#ffcc00` ("amber")
 
 background: light
-foreground: blue
+foreground: black
 
 ## Documentation
 
