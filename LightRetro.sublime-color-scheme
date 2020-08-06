@@ -1,0 +1,58 @@
+{
+	"name": "Light Retro",
+	"variables": {
+		"amber": "#ffcc00",
+		"beige": "#fff8dc",
+		"blue": "#0070bb",
+		"brown": "#826644",
+		"green": "#6b8e23",
+		"grey": "#333231",
+		"orange": "#ee8822",
+		"red": "#bc0000"
+	},
+	"globals": {
+		"foreground": "var(blue)",
+		"background": "var(beige)",
+		"caret": "var(red)",
+		"selection": "#00416A",
+		"selection_foreground": "#fffdd0",
+		"line_highlight": "#ffcc0099",
+		"brackets_options": "bold"
+	},
+	"rules": [
+		{
+			"name": "Strings",
+			"scope": "string",
+			"foreground": "var(green)",
+		},
+		{
+			"scope": "constant.language, keyword, keyword.operator.word, storage",
+			"font_style": "bold",
+			"foreground": "var(orange)"
+		},
+		{
+			"scope": "keyword.operator, text",
+			"foreground": "var(blue)"
+		},
+		{
+			"scope": "constant",
+			"foreground": "var(green)",
+		},
+		{
+			"scope": "constant.other.placeholder, constant.character.escape",
+			"font_style": "bold",
+			"foreground": "var(amber)"
+		},
+		{
+			"scope": "comment",
+			"foreground": "var(brown)"
+		},
+		{
+			"scope": "markup.heading",
+			"foreground": "var(brown)"
+		},
+		{
+			"scope": "markup.bold, markup.italic, markup.underline, markup.raw", "foreground": "var(green)"
+		}
+	]
+}
